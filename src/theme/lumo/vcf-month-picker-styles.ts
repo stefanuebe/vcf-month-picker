@@ -1,13 +1,12 @@
-import '@vaadin/vaadin-lumo-styles/color.js';
-import '@vaadin/vaadin-lumo-styles/sizing.js';
-import '@vaadin/vaadin-lumo-styles/spacing.js';
-import '@vaadin/vaadin-lumo-styles/style.js';
-import '@vaadin/vaadin-lumo-styles/typography.js';
+// import '@vaadin/vaadin-lumo-styles/lumo.css'; // not needed any more, the application is accountable for choosing the correct theme
 import '@vaadin/vaadin-lumo-styles/mixins/menu-overlay.js';
 import {
   css,
   registerStyles,
 } from '@vaadin/vaadin-themable-mixin/vaadin-themable-mixin.js';
+
+// TODO move component styles to a better place
+// TODO replace --lumo css variables with a more common variant
 
 registerStyles(
   'vcf-month-picker',
